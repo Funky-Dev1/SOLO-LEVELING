@@ -1,0 +1,60 @@
+body{
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url(https://wallpapercave.com/wp/wp12669671.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+background-position: center;
+background-attachment: scroll;
+height: 100vh;
+}
+
+.container{
+    background-color:gray;
+    border-width: 4px;
+    border-color: whitesmoke;
+    border-radius: 20px;
+    border-style: solid;
+    height: 60vh;
+    width: 40vw;
+    /* margin-top: 10%; */
+    background: transparent;
+    backdrop-filter:blur(10px);
+}
+.Field{
+border-radius: 40px;
+margin-left: 26%;
+padding:25px;
+width: 40%;
+margin-top: 90px;
+}
+
+.secret-word{
+    margin-top: 90px;
+    border-radius: 40px;
+    padding: 25px;
+    width: 40%;
+    margin-left: 26%;
+}
+
+h1{
+margin-left: 37%;
+color: white;
+margin-top: 90px;
+}
+
+.btn{
+    margin-left: 41%;
+    padding: 20px;
+    border-radius: 20px;
+    width:14%;
+    
+}
+.btn:hover{
+    color: white;
+    cursor: pointer;
+    background-color: blue;
+}
